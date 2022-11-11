@@ -46,3 +46,81 @@ h2 {
   text-decoration: none;
   color: white;
 }
+
+.Shopify {
+  background-color: white;
+}
+
+.Packages {
+  background-color: white;
+}
+
+.pBlanc {
+  color: white;
+}
+
+.lorem6 p {
+  color: white;
+}
+
+#Fusée {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#FondGris {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#VagueGrise {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pgris {
+  color: grey;
+}
+
+.textjoli1 {
+  color: blue;
+}
+
+.textjoli2 {
+  color: orange;
+}
+
+.puissancedollar1 {
+  color: black;
+}
+
+.puissancedollar2 {
+  color: orange;
+}
+
+.Prix1 {
+  color: black;
+}
+
+.Prix2 {
+  color: orange;
+}
+
+.pOrange {
+  color: orange;
+}
