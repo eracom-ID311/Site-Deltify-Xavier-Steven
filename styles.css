@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(15, 8, 50);
+  background-size: 1440px 724px;
+  text-align: center margin;
+  grid-auto-flow: dense;
+}
+
+nav {
+  margin: 10px auto;
+  width: 50%;
+  height: 100px;
+}
+
+nav .main_pages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav .main_pages a {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  background: #5a5766;
+}
+h1 {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+h2 {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
