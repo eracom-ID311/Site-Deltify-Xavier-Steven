@@ -3,6 +3,10 @@ body {
   margin: auto;
 }
 
+header {
+  background-color: rgb(15, 8, 50);
+}
+
 .arriereplan {
   background-color: rgb(15, 8, 50);
   padding-left: 100px;
@@ -11,9 +15,15 @@ body {
   justify-content: space-between;
 }
 
+.Titre {
+  color: white;
+  font-size: 300%;
+}
+
 h1 {
   font-size: 250%;
 }
+
 nav {
   margin: auto;
 }
@@ -21,10 +31,7 @@ nav {
 nav .main_pages {
   display: flex;
   justify-content: space-between;
-}
-
-header {
-  background-color: rgb(15, 8, 50);
+  padding-right: 100px;
 }
 
 nav .main_pages a {
@@ -42,24 +49,9 @@ nav a:hover {
   background: #5a5766;
 }
 
-.Shopify {
-  background-color: white;
-}
-
-.Packages {
-  background-color: white;
-}
-
-.pBlanc {
-  color: white;
-}
-
-.psouligne {
-  text-decoration: underline;
-}
-
-.lorem6 p {
-  color: white;
+.Sayhi {
+  color: orange;
+  padding-top: 25px;
 }
 
 #FondGris {
@@ -80,6 +72,63 @@ nav a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.boutongetstarted {
+  display: flex;
+}
+
+.TitreGetStarted {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 50px;
+  color: white;
+  background-color: orange;
+}
+
+.TitreGetStartedInvisible {
+  color: rgb(15, 8, 50);
+}
+
+.GetStarted {
+  background-color: rgb(15, 8, 50);
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.lorem6 {
+  display: flex;
+}
+
+.bloc1 {
+  padding-right: 60px;
+}
+.duo {
+  color: white;
+  display: flex;
+}
+
+.vuOrange {
+  width: 15px;
+  height: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Packages {
+  background-color: white;
+}
+
+.pBlanc {
+  color: white;
+}
+
+.psouligne {
+  text-decoration: underline;
 }
 
 .pgris {
@@ -118,26 +167,42 @@ span {
   color: orange;
 }
 
-.hnoir {
+.pnoir {
   color: black;
 }
 
-.GetStarted {
-  background-color: rgb(15, 8, 50);
+.tailletexte1 {
+  color: white;
+  font-size: 145%;
+}
+
+.LetsSky {
+  color: white;
+  font-size: 320%;
+}
+
+.Shopify {
+  background-color: white;
+}
+
+.Expert {
+  color: orange;
+}
+
+.boutonreadmore {
   display: flex;
+}
+
+.Titrereadmore {
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 100px;
   padding-right: 100px;
+  border-radius: 50px;
+  color: white;
+  background-color: orange;
 }
 
-.perimetre1 {
-  width: 200px;
-}
-
-.lorem6 {
-  display: flex;
-  flex-direction: column;
-}
-
-.duo {
-  display: flex;
+.TitrereadmoreInvisible {
+  color: white;
 }
