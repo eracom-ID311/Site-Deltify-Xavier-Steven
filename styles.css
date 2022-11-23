@@ -54,6 +54,12 @@ nav a:hover {
   padding-top: 25px;
 }
 
+#Fusée {
+  height: auto;
+  width: 800px;
+  padding-left: 220px;
+}
+
 #FondGris {
   position: -ms-page;
   top: 0;
@@ -103,6 +109,14 @@ nav a:hover {
   display: flex;
 }
 
+.lorem378 {
+  display: flex;
+  flex-direction: column;
+}
+
+.bloc0 {
+  width: 700px;
+}
 .bloc1 {
   padding-right: 60px;
 }
@@ -119,11 +133,21 @@ nav a:hover {
   padding-right: 20px;
 }
 
-.Packages {
-  background-color: white;
+.vuOrange2 {
+  width: 15px;
+  height: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.pBlanc {
+.textbloc1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pblanc {
   color: white;
 }
 
@@ -182,7 +206,9 @@ span {
 }
 
 .Shopify {
-  background-color: white;
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .Expert {
@@ -196,13 +222,94 @@ span {
 .Titrereadmore {
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
-  border-radius: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 5px;
   color: white;
   background-color: orange;
 }
 
 .TitrereadmoreInvisible {
   color: white;
+}
+
+.ordi {
+  height: auto;
+  width: 800px;
+  padding-right: 180px;
+}
+
+.Packages {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.Blocexpert {
+  width: 545px;
+}
+
+.thereare {
+  color: grey;
+  width: 340px;
+}
+
+.Packages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prixgroup {
+  display: flex;
+}
+
+.Container {
+  display: flex;
+}
+
+.Container1 {
+  border-radius: 5px;
+  background-color: rgb(253, 245, 229);
+  margin: 20px;
+  width: 350px;
+}
+
+.Container2 {
+  border-radius: 5px;
+  background-color: rgb(13, 35, 131);
+  width: 350px;
+}
+
+.Container3 {
+  border-radius: 5px;
+  background-color: rgb(253, 245, 229);
+  margin: 20px;
+  width: 350px;
+}
+
+.padmodif1 {
+  padding-bottom: 50px;
+}
+
+.BoutonBuyNowblanc {
+  display: flex;
+  padding-top: 200px;
+}
+
+.TitreBuyNow {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: orange;
+  color: orange;
+}
+
+.TitreBuyNowInvisible {
+  color: rgb(253, 245, 229);
 }
