@@ -137,8 +137,8 @@ nav a:hover {
   width: 15px;
   height: 10px;
   padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .textbloc1 {
@@ -161,6 +161,11 @@ nav a:hover {
 
 .textjoli1 {
   color: blue;
+}
+
+.Simplify {
+  color: blue;
+  padding-top: 50px;
 }
 
 .textjoli2 {
@@ -293,7 +298,20 @@ span {
 
 .BoutonBuyNowblanc {
   display: flex;
-  padding-top: 200px;
+}
+
+.BoutonBuyNowpad1 {
+  display: flex;
+  padding-top: 295px;
+}
+
+.BoutonBuyNowpad2 {
+  display: flex;
+  padding-top: 107px;
+}
+
+.BoutonBuyNowpad3 {
+  display: flex;
 }
 
 .TitreBuyNow {
@@ -310,6 +328,28 @@ span {
   color: orange;
 }
 
+.TitreBuyNoworange {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 50px;
+  background-color: orange;
+  color: white;
+}
+
 .TitreBuyNowInvisible {
   color: rgb(253, 245, 229);
+}
+
+.TitreBuyNowInvisiblebleu {
+  color: rgb(13, 35, 131);
+}
+
+.BecauseYoureWorthIt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
