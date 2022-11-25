@@ -18,12 +18,11 @@ header {
 
 .Titre {
   color: white;
-  font-size: 300%;
+
   font-family: "Roboto", sans-serif;
 }
 
 h1 {
-  font-size: 250%;
   font-family: "Roboto", sans-serif;
 }
 
@@ -64,26 +63,6 @@ nav a:hover {
   padding-left: 220px;
 }
 
-#FondGris {
-  position: -ms-page;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#VagueGrise {
-  position: -ms-page;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .boutongetstarted {
   display: flex;
   font-family: "Roboto", sans-serif;
@@ -104,18 +83,16 @@ nav a:hover {
 }
 
 .GetStarted {
-  background-color: rgb(15, 8, 50);
+  background-image: url(images/spacestar.png);
   display: flex;
   padding-left: 100px;
   padding-right: 100px;
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
 }
 
 .lorem6 {
   display: flex;
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 600;
 }
 
 .lorem378 {
@@ -124,7 +101,7 @@ nav a:hover {
 }
 
 .bloc0 {
-  width: 700px;
+  width: 950px;
 }
 .bloc1 {
   padding-right: 60px;
@@ -141,7 +118,6 @@ nav a:hover {
   padding-left: 20px;
   padding-right: 20px;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 13.93;
 }
 
 .vuOrange2 {
@@ -151,7 +127,6 @@ nav a:hover {
   padding-left: 15px;
   padding-right: 15px;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 13.93;
 }
 
 .textbloc1 {
@@ -163,7 +138,18 @@ nav a:hover {
 .pblanc {
   color: white;
   font-family: "Nunito", sans-serif;
-  font-weight: 17px;
+}
+
+.pblanc2 {
+  color: white;
+  font-family: "N5unito", sans-serif;
+}
+
+.pblanc3 {
+  color: white;
+  font-family: "N5unito", sans-serif;
+  text-align: center;
+  font-size: 80%;
 }
 
 .psouligne {
@@ -173,83 +159,140 @@ nav a:hover {
 .pgris {
   color: grey;
   font-family: "Nunito", sans-serif;
-  font-size: 17px;
 }
 
-.textjoli1 {
-  color: blue;
-  font-family: "Pacifico", cursive;
-  font-size: 30px;
+.pgris2 {
+  color: grey;
+  font-family: "N5unito", sans-serif;
+  font-size: 95%;
+}
+
+.pgris3 {
+  color: grey;
+  font-family: "N5unito", sans-serif;
+  width: 770px;
+  text-align: center;
+  padding-left: 550px;
+}
+
+.pgris4 {
+  color: grey;
+  font-family: "N5unito", sans-serif;
+  padding-left: 20px;
+  padding-bottom: 13px;
+  font-size: 80%;
 }
 
 .Simplify {
-  color: blue;
-  padding-top: 50px;
+  color: rgb(28, 42, 167);
+  padding-top: 60px;
   font-family: "Pacifico", cursive;
-  font-size: 30px;
+  font-size: 250%;
 }
 
-.textjoli2 {
+.Blendify {
   color: orange;
   font-family: "Pacifico", cursive;
-  font-size: 35px;
+  font-size: 250%;
+  padding-top: 0px;
+}
+
+.Rockify {
+  color: rgb(28, 42, 167);
+  font-family: "Pacifico", cursive;
+  font-size: 250%;
 }
 
 .puissancedollar1 {
   color: black;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 40px;
+  font-size: 200%;
 }
 
 .puissancedollar2 {
   color: orange;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 40px;
+  font-size: 200%;
 }
 
 .Prix1 {
   color: black;
+  font-size: 300%;
 }
 
 .Prix2 {
   color: orange;
+  font-size: 300%;
 }
 
 .pOrange {
   color: orange;
   font-family: "Nunito Sans", sans-serif;
-  font-weight: bold;
-  font-size: 15px;
+}
+
+.pOrange2 {
+  color: orange;
+  font-family: "Rubik", sans-serif;
 }
 
 span {
   color: orange;
   font-family: "Nunito Sans", sans-serif;
-  font-weight: bold;
-  font-size: 30px;
 }
 
 .pnoir {
   color: black;
   font-family: "Nunito-sans", sans-serif;
-  font-size: 13.93px;
-  font-weight: 500;
 }
 
 .tailletexte1 {
   color: white;
-  font-size: 145%;
+  font-size: 150%;
+}
+
+.tailletexte2 {
+  color: black;
+  font-size: 250%;
 }
 
 .LetsSky {
   color: white;
-  font-size: 320%;
+  font-size: 335%;
+}
+
+#FondGris {
+  position: -ms-page;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .Shopify {
+  background-image: url(images/Vector4.png);
+  background-repeat: round;
+}
+
+.ShopifyIn {
   display: flex;
+  padding-top: 100px;
   padding-left: 100px;
   padding-right: 100px;
+}
+
+.ordi {
+  height: auto;
+  width: 800px;
+  padding-right: 180px;
+  padding-left: 100px;
+}
+
+#VagueGrise {
+  height: 140px;
+  padding-left: 380px;
+  padding-bottom: 27px;
 }
 
 .Expert {
@@ -276,26 +319,19 @@ span {
   color: white;
 }
 
-.ordi {
-  height: auto;
-  width: 800px;
-  padding-right: 180px;
-}
-
 .Packages {
   margin-left: 120px;
   margin-right: 120px;
 }
 
 .Blocexpert {
-  width: 545px;
+  width: 600px;
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 400;
 }
 
 .thereare {
   color: grey;
-  width: 340px;
+  width: 370px;
 }
 
 .Packages {
@@ -313,27 +349,61 @@ span {
 }
 
 .Container1 {
-  border-radius: 5px;
+  border-radius: 25px;
   background-color: rgb(253, 245, 229);
   margin: 20px;
   width: 350px;
+  box-shadow: 15px 15px 50px -20px black;
 }
 
 .Container2 {
-  border-radius: 5px;
+  border-radius: 25px;
   background-color: rgb(13, 35, 131);
   width: 350px;
+  box-shadow: 15px 15px 50px -20px black;
 }
 
 .Container3 {
-  border-radius: 5px;
+  border-radius: 25px;
   background-color: rgb(253, 245, 229);
   margin: 20px;
   width: 350px;
+  box-shadow: 15px 15px 50px -20px black;
+}
+
+.topblocbannergroup {
+  display: flex;
+}
+
+.topblocbannerinvisible {
+  padding-left: 50px;
+}
+
+.topblocbanner13 {
+  border-radius: 0px 0px 50px 50px;
+  width: 250px;
+  height: 10px;
+  background-color: rgb(13, 35, 131);
+}
+
+.topblocbannergroup2 {
+  display: flex;
+}
+
+.topblocbannerinvisible2 {
+  padding-left: 50px;
+}
+
+.topblocbanner2 {
+  border-radius: 0px 0px 50px 50px;
+  width: 250px;
+  height: 10px;
+  background-color: orange;
 }
 
 .padmodif1 {
   padding-bottom: 50px;
+  font-size: 250%;
 }
 
 .BoutonBuyNowblanc {
@@ -342,17 +412,20 @@ span {
 
 .BoutonBuyNowpad1 {
   display: flex;
-  padding-top: 295px;
+  padding-top: 285px;
+  padding-bottom: 15px;
   font-family: "Rubik", sans-serif;
 }
 .BoutonBuyNowpad2 {
   display: flex;
   padding-top: 107px;
+  padding-bottom: 15px;
   font-family: "Rubik", sans-serif;
 }
 
 .BoutonBuyNowpad3 {
   display: flex;
+  padding-bottom: 15px;
   font-family: "Rubik", sans-serif;
 }
 
@@ -417,6 +490,7 @@ span {
 .Milieubecause {
   display: flex;
   justify-content: center;
+  padding-top: 50px;
 }
 
 .HautNews {
@@ -426,20 +500,54 @@ span {
   text-align: center;
 }
 
+.ContainerEmail {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.BlocBlanc {
+  width: 500px;
+  background-color: white;
+  border-radius: 10px 0px 0px 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+}
+
+.BlocOrange {
+  width: 200px;
+  background-color: orange;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.Subscribe {
+  font-size: 250%;
+}
+
 footer {
-  background-color: rgb(15, 8, 50);
+  background-image: url(images/spacestar.png);
 }
 
 .infooter {
-  background-color: rgb(15, 8, 50);
+  padding-top: 30px;
   padding-left: 350px;
   padding-right: 350px;
+  padding-bottom: 50px;
   display: flex;
 }
 
 .pblancfin {
-  color: white;
+  color: rgb(197, 197, 197);
   width: 350px;
+  font-family: "Rubik", sans-serif;
+  font-size: 90%;
+}
+
+.pblancfin2 {
+  color: rgb(197, 197, 197);
+  font-family: "5Rubik", sans-serif;
 }
 
 .ContainerFooter234 {
@@ -448,7 +556,48 @@ footer {
   padding-left: 100px;
 }
 
+.traitorange {
+  display: flex;
+}
+
+.trait1 {
+  display: inline-block;
+  width: 12px;
+  height: 2px;
+  background-color: orange;
+}
+
+.traitvide {
+  display: inline-block;
+  width: 8px;
+  height: 2px;
+  background-color: rgb(15, 8, 50);
+}
+
+.trait2 {
+  display: inline-block;
+  width: 22px;
+  height: 2px;
+  background-color: orange;
+}
+
+.boutonRéseaux {
+  padding-top: 10px;
+}
+
+.insta {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.fb {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
 .Copyright {
   color: grey;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
